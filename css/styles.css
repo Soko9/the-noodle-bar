@@ -1,0 +1,855 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #323D47;
+  font-family: 'Asap', sans-serif;
+  user-select: none;
+}
+
+#contain {
+	width: 100%;
+}
+
+/** Header **/
+#header-nav {
+	background-color: #FF1700;
+	border: 0;
+	border-radius: 0;
+}
+
+/** Logo **/
+#logo-img {
+	background: url('../images/restaurant-logo-lg.png') no-repeat;
+	width: 180px;
+	height: 180px;
+	margin: 10px 15px 10px 0;
+}
+
+/** Brand Name **/
+.navbar-brand {
+	padding-top: 45px;
+}
+
+/*Name*/
+.navbar-brand h1 {
+	font-family: 'Asap', sans-serif;
+	color: #EFEDCD;
+	font-size: 2.8em;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+/*Chinese Food Maker*/
+.navbar-brand p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #EFEDCD;
+	font-size: 1.4em;
+	font-weight: 300;
+	font-style: normal;
+	text-transform: capitalize;
+	line-height: .75;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	user-select: none;
+}
+
+.navbar-brand p span {
+	vertical-align: middle;
+}
+
+/*Phone Number*/
+#phone {
+	font-family: 'Asap', sans-serif;
+	color: #EFEDCD;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: .75;
+}
+
+.navbar-brand a span {
+	vertical-align: middle;
+}
+
+/*Menu Items*/
+#nav-list {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#nav-list a {
+	color: #323D47;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	color: #EAEDCA;
+}
+
+#nav-list a span {
+	font-size: 1.4em;
+	margin-left: 10px;
+	text-align: center;
+}
+
+
+#phone {
+  margin-top: 5px;
+}
+
+/* Phone number */
+#phone a {
+  text-align: right;
+  font-family: monospace;
+  font-size: 1.4em;
+  margin-top: 0px;
+  margin-left: 25px;
+  padding-bottom: 0;
+}
+
+ /* We Deliver */
+#phone div {
+  color: #EAEDCA;
+  text-align: right;
+  font-family: monospace;
+  font-size: 1em;
+  margin-top: 0px;
+  margin-top: 10px;
+  padding-right: 15px;
+}
+
+/*Collapse Button*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 2px solid #EAEDCA;
+	border-radius: 50%;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+
+
+
+
+/************************  HOME PAGE AREA  ************************/
+
+
+
+
+
+/*Jumbotron*/
+.container .jumbotron {
+	box-shadow: 0 0 5px #EAEDCA;
+	border: 2px solid #EAEDCA;
+}
+
+/*Home Tiles*/
+#menu-tile, #specials-tile, #map-tile {
+	width: 100%;
+	height: 250px;
+	margin-bottom: 25px;
+	position: relative;
+	box-shadow: 0 0 5px #EAEDCA;
+	border: 2px solid #EAEDCA;
+	overflow: hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+	box-shadow: 0 0 9px #EAEDCA;
+}
+
+/*Menu Tile*/
+#menu-tile {
+	background: url('../images/menu-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+/*Specials Tile*/
+#specials-tile {
+	background: url('../images/specials-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+/*TAGS*/
+#menu-tile span, #specials-tile span, #map-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-family: 'Asap', sans-serif;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: black;
+	color: #EAEDCA;
+	opacity: .7;
+}
+
+
+
+
+/************************  FOOTER  ************************/
+
+
+
+
+/*Footer*/
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #737B81;
+	border-top: 0;
+	color: #EAEDCA;
+	font-weight: bold;
+	text-align: center;
+}
+
+.panel-footer div.row {
+	margin-bottom: 35px;
+}
+
+.panel-footer .container {
+	width: 95%;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+#hours, #address, #testimonials {
+	line-height: 2;
+}
+
+/*Titles*/
+#hours > span, #address > span, #testimonials > span {
+	font-family: 'Asap', sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+/*Paragraph In Address*/
+#address p {
+	padding: 10px;
+	width: 300px;
+	margin-top: 15px;
+	font-weight: bolder;
+	font-size: 1em;
+	line-height: 1.8;
+	border: 3px dashed #FF1700;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Testimonials*/
+#testimonials p {
+	font-style: italic;
+	font-weight: normal;
+}
+
+#testimonials p:nth-child(2) {
+	margin-top: 15px;
+}
+
+/*Copyrights*/
+.text-content {
+	text-align: center;
+	margin-top: 40px;
+	font-family: monospace;
+	font-size: 20px;
+	background-color: #FF1700;
+	border-radius: 5px;
+}
+
+
+
+
+
+/************************  MENU CATEGORY PAGE  ************************/
+
+
+
+
+
+.category-tile {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 25px;
+	position: relative;
+	box-shadow: 0 0 3px #EAEDCA;
+	border: 2px solid #EAEDCA;
+	overflow: hidden;
+}
+
+.category-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-family: 'Asap', sans-serif;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: black;
+	color: #EAEDCA;
+	opacity: .7;
+}
+
+.category-tile:hover {
+	box-shadow: 0 0 9px #EAEDCA;
+}
+
+#menu-category-title {
+	font-size: 2.8em;
+	color: #EAEDCA;
+}
+
+#stuff {
+	font-size: 1.4em;
+	font-family: monospace;
+	color: #EAEDCA;
+	text-transform: capitalize;
+}
+
+#menu-category-title + div {
+	margin-bottom: 50px;
+}
+
+
+
+
+/************************  MENU CATEGORY PAGE  ************************/
+
+
+/*Menu Item Tiles*/
+.menu-item-tile {
+	color: #EFEDCD;
+	margin-top: 25px;
+	margin-bottom: 35px;
+}
+
+/*Price*/
+.menu-item-tile .menu-item-price {
+	font-family: monospace;
+	font-size: 1.1em;
+	text-align: center;
+	margin-top: -15px;
+	margin-right: -15px;
+}
+
+.menu-item-tile .menu-item-price span {
+	font-size: .6em;
+}
+
+/*Image*/
+.menu-item-photo {
+	position: relative;
+	box-shadow: 0 0 3px #EAEDCA;
+	border: 2px solid #EAEDCA;
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	margin-bottom: 20px;
+	max-width: 250px;
+}
+
+/*ID*/
+.menu-item-photo div {
+	position: absolute;
+	top: -15px;
+	left: -15px;
+	width: 45px;
+	height: 45px;
+	box-shadow: 0 0 3px #EAEDCA;
+	border: 2px solid #EAEDCA;
+	background-color: #323D47;
+	border-radius: 50%;
+	color: #EFEDCD;
+	padding-top: 9px;
+	font-weight: bold;
+	font-family: 'Asap', sans-serif;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/*Description*/
+.menu-item-description {
+	padding-top: 0px;
+	padding-right: 30px;
+	text-align: left;
+}
+
+/*Title*/
+h3.menu-item-title {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0 0 10px;
+}
+
+/*Details*/
+.menu-item-details {
+	font-size: .9em;
+	font-style: italic;
+	font-family: monospace;
+}
+
+/************************  LARGE SCREENS  ************************/
+
+
+
+
+
+@media (min-width: 1200px) {
+	/*Jumbotron*/
+	.container .jumbotron {
+		background: url('../images/jumbotron-1200.jpg') no-repeat;
+		height: 675px;
+		box-shadow: 0 0 5px #EAEDCA;
+		border: 2px solid #EAEDCA;
+	}
+}
+
+
+
+
+
+/************************  MEDIUM SCREENS  ************************/
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	/*Medium Logo*/
+	#logo-img {
+		background: url('../images/restaurant-logo-md.png') no-repeat;
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+	}
+	/*Name*/
+	.navbar-brand h1 {
+		font-family: 'Asap', sans-serif;
+		color: #EFEDCD;
+		font-size: 2em;
+		text-transform: uppercase;
+		font-weight: 600;
+		margin-top: -20px;
+		margin-bottom: 0;
+		line-height: .75;
+	}
+
+	.navbar-brand a:hover, .navbar-brand a:focus {
+		text-decoration: none;
+	}
+
+	/*Chinese Food Maker*/
+	.navbar-brand p {
+		font-family: 'Open Sans Condensed', sans-serif;
+		color: #EFEDCD;
+		font-size: 1em;
+		font-weight: 300;
+		font-style: normal;
+		text-transform: capitalize;
+		line-height: .75;
+		margin-top: 15px;
+		margin-bottom: 20px;
+		user-select: none;
+	}
+
+	.navbar-brand p span {
+		vertical-align: middle;
+	}
+
+	#nav-list {
+		margin-top: 10px;
+	}
+
+	/*Jumbotron*/
+	.container .jumbotron {
+		background: url('../images/jumbotron-992.jpg') no-repeat;
+		height: 558px;
+		box-shadow: 0 0 5px #EAEDCA;
+		border: 2px solid #EAEDCA;
+	}
+
+	/*Titles*/
+	#hours > span, #address > span, #testimonials > span {
+		font-family: 'Asap', sans-serif;
+		font-size: 1em;
+		font-weight: bold;
+	}
+
+	/*Paragraph In Address*/
+	#address p {
+		padding: 10px;
+		width: 200px;
+		margin-top: 15px;
+		font-weight: bolder;
+		font-size: .7em;
+		line-height: 1.8;
+		border: 3px dashed #FF1700;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*Testimonials*/
+	#testimonials p {
+		font-style: italic;
+		font-weight: normal;
+	}
+
+	#testimonials p:nth-child(2) {
+		margin-top: 10px;
+	}
+
+	/*Menu Item*/
+	.menu-item-tile .menu-item-price {
+		font-size: .8em;
+	}
+
+	h3.menu-item-title {
+	font-size: 1.2em;
+}
+
+	.menu-item-details {
+		font-size: .7em;
+	}
+}
+
+
+
+
+
+/************************  SMALL SCREENS  ************************/
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	/*Medium Logo*/
+	#logo-img {
+		background: url('../images/restaurant-logo-sm.png') no-repeat;
+		width: 50px;
+		height: 50px;
+		margin: 5px 5px 5px 0;
+	}
+	/*Name*/
+	.navbar-brand h1 {
+		font-family: 'Asap', sans-serif;
+		color: #EFEDCD;
+		font-size: 1.4em;
+		text-transform: uppercase;
+		font-weight: 600;
+		margin-top: -30px;
+		margin-bottom: 0;
+		line-height: .75;
+	}
+
+	.navbar-brand a:hover, .navbar-brand a:focus {
+		text-decoration: none;
+	}
+
+	/*Chinese Food Maker*/
+	.navbar-brand p {
+		font-family: 'Open Sans Condensed', sans-serif;
+		color: #EFEDCD;
+		font-size: .7em;
+		font-weight: 300;
+		font-style: normal;
+		text-transform: capitalize;
+		line-height: .75;
+		margin-top: 15px;
+		margin-bottom: 20px;
+		user-select: none;
+	}
+
+	.navbar-brand p span {
+		vertical-align: middle;
+	}
+
+	#nav-list {
+		margin-top: 0px;
+	}
+
+	#nav-list a {
+		margin-left: 2px;
+	}
+
+	/*Jumbotron*/
+	.container .jumbotron {
+		background: url('../images/jumbotron-768.jpg') no-repeat;
+		height: 432px;
+		box-shadow: 0 0 5px #EAEDCA;
+		border: 2px solid #EAEDCA;
+		margin-bottom: 35px;
+	}
+
+	/*Home Tiles*/
+	.row {
+		margin-top: 70px;
+	}
+
+	/*Footer*/
+	.panel-footer {
+		padding-top: 0px;
+	}
+
+	.panel-footer section {
+		margin-bottom: 30px;
+	}
+
+	.panel-footer section hr {
+		width: 100%;
+	}
+
+	/*Titles*/
+	#hours > span, #address > span, #testimonials > span {
+		font-family: 'Asap', sans-serif;
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+
+	#hours {
+		font-size: .8em;
+	}
+
+	#address {
+		font-size: .8em;
+	}
+
+	#testimonials {
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	/*Paragraph In Address*/
+	#address p {
+		padding: 10px;
+		width: 160px;
+		margin-top: 15px;
+		font-weight: bolder;
+		font-size: .8em;
+		line-height: 1.8;
+		border: 3px dashed #FF1700;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*Testimonials*/
+	#testimonials p {
+		font-size: 1.2em;
+		font-style: italic;
+		font-weight: normal;
+	}
+
+	/*Menu Items*/
+	.menu-item-tile .menu-item-price {
+		margin-left: 50px;
+	}
+
+}
+
+
+
+
+
+/************************  EXTRA SMALL SCREENS  ************************/
+
+
+
+
+
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 {
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p {
+		font-size: .8em;
+		margin-top: 12px;
+	}
+
+	.navbar-header button.navbar-toggle {
+		margin-top: -60px;
+	}
+
+	#nav-list {
+		margin-top: 8px;
+	}
+
+	#collapsable-nav a {
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 1.4em;
+		font-family: monospace;
+	}
+
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+	/*Mobile Button*/
+	#call-btn > a {
+	    font-size: 1.5em;
+	    display: block;
+	    margin: 0 20px;
+	    padding: 10px;
+	    font-family: monospace;
+	    border: 2px solid #FF1700;
+	    background-color: #323D47;
+	    color: #E2EDC8;
+	}
+
+	#call-btn > a > span {
+		margin-right: 10px;
+		font-size: 0.8em;
+		color: #E2EDC8;
+	}
+
+	 #xs-deliver {
+	    margin-top: 5px;
+	    font-size: .9em;
+	    font-family: monospace;
+	    letter-spacing: .1em;
+	    text-transform: uppercase;
+	    color: #E2EDC8;
+	}
+
+	/*Jumbotron*/
+	.container .jumbotron {
+		margin-top: 30px;
+		padding: 0;
+		box-shadow: 0 0 5px #EAEDCA;
+		border: 2px solid #EAEDCA;
+	}
+
+	/*Home Tiles*/
+	.row {
+		margin-top: 80px;
+	}
+
+	#menu-tile, #specials-tile, #map-tile {
+		width: 360px;
+		margin: 0 auto 25px;
+	}
+
+	/*Footer*/
+	.panel-footer {
+		padding-top: 0px;
+	}
+
+	/*.panel-footer section {
+		margin-bottom: 30px;
+	}*/
+
+	.panel-footer section hr {
+		width: 100%;
+	}
+
+	/*Titles*/
+	#hours > span, #address > span, #testimonials > span {
+		font-family: 'Asap', sans-serif;
+		font-size: 1.3em;
+		font-weight: bold;
+	}
+
+	/*Paragraph In Address*/
+	#address p {
+		padding: 10px;
+		width: 275px;
+		margin-top: 15px;
+		font-weight: bolder;
+		font-size: .8em;
+		line-height: 1.8;
+		border: 3px dashed #FF1700;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*Testimonials*/
+	#testimonials p {
+		font-style: italic;
+		font-weight: normal;
+	}
+
+	#testimonials p:nth-child(2) {
+		margin-top: 10px;
+	}
+
+	.text-content {
+		font-size: 16px;
+	}
+
+	/*Menu Item*/
+	.menu-item-photo {
+		margin-right: auto;
+	}
+
+	.menu-item-tile .menu-item-price {
+		margin-right: 0;
+		margin-left: 0;
+		margin-bottom: 25px;
+	}
+
+	.menu-item-description {
+		text-align: center;
+	}
+
+}
+
+
+
+
+
+/************************ SUPER EXTRA SMALL SCREENS (IPHONE 4) ************************/
+
+
+
+
+
+@media (max-width: 479px) {
+	#menu-tile, #specials-tile, #map-tile {
+		width: 288px;
+		margin: 0 auto 25px;
+	}
+
+	/*Footer*/
+	.panel-footer {
+		padding-top: 0px;
+	}
+
+	.panel-footer section {
+		margin-bottom: 30px;
+	}
+
+	.panel-footer section hr {
+		width: 100%;
+	}
+
+	.col-sxs-12 {
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		float: left;
+		width: 100%;
+	}
+}
